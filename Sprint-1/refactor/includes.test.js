@@ -9,10 +9,9 @@ test("returns true when target is in array", () => {
   expect(currentOutput).toEqual(targetOutput);
 });
 
-test("returns false when target not in array", () => {
+test("returns false when target is not in array", () => {
   const currentOutput = includes([1, 2, 3, 4], "a");
   const targetOutput = false;
-
   expect(currentOutput).toEqual(targetOutput);
 });
 
